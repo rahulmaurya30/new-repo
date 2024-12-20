@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaAngleRight } from "react-icons/fa";
 import CountUp from 'react-countup';
-
+import bg2 from '../../assets/graphic/images/bg2.jpg'
 // import ProgressBar from '@ramonak/react-progress-bar';
 
 export default function About() {
@@ -42,7 +42,7 @@ export default function About() {
     <p >Learn more about me</p>
     <div className='row'>
       <div className='col-xl-4  col-lg-4 col-md-4 col-sm-12 text-white'>
-        <img src="./src/assets/graphic/images/bg2.jpg" className='abhout_img' />
+        <img src={bg2} className='abhout_img' />
       </div>
       <div className='col-xl-8  col-lg-8 col-md-8 col-sm-12 about_text '>
     <h3>UI/UX & Graphic Designer</h3>
